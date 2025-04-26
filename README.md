@@ -7,6 +7,20 @@ This repository provides a template for creating a course reader or course notes
    * Go to the Quarto website ([https://quarto.org/](https://quarto.org/)) and download the installer for your operating system. Run the installer.
    * Open your terminal or command prompt and type `quarto --version`. If Quarto is installed correctly, you should see the version number.
 
+## 2. Install R 
+
+   *  Download and install R from the Comprehensive R Archive Network (CRAN) ([https://cran.r-project.org/](https://cran.r-project.org/)).
+   * Follow the installation instructions for your operating system.
+   * To verify the installation, open an R terminal and type `R.version.string`. You should see the R version information.
+
+## 3. Install Required R Packages
+
+   * If you are using R, you'll need to install the following R packages. These can be installed from within an R session using the `install.packages()` function:
+
+     ```R
+     install.packages(c("ggplot2", "magick"))
+     ```
+
 ## 2. Clone this Repository
 
    * Open your terminal or command prompt.
