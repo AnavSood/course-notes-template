@@ -17,7 +17,7 @@ This repository provides a template for creating a course reader or course notes
      git clone https://github.com/AnavSood/course-notes-template.git
      ```
 
-### 3. Preview the Website Locally
+## 3. Preview the Website Locally
 
    * To preview your course notes as a website, navigate to the cloned repository and use command:
 
@@ -27,7 +27,7 @@ This repository provides a template for creating a course reader or course notes
 
    * This will start a local server and open your notes in your web browser. Quarto will automatically update the browser when you make changes to your `.qmd` files.
 
-### 4. Deploy the Webpage
+## 4. Deploy the Webpage
 
    * Quarto generates static websites that can be deployed to any standard web server or hosting service.
    * The output files are located in the `_book` directory after you render your Quarto project.
