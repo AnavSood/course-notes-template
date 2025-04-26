@@ -18,7 +18,7 @@ This repository provides a template for creating a course reader or course notes
    * If you are using R, you'll need to install the following R packages. These can be installed from within an R session using the `install.packages()` function:
 
      ```R
-     install.packages(c("ggplot2", "magick"))
+     install.packages(c("ggplot2", "magick", "pdftools"))
      ```
 
 ## 2. Clone this Repository
