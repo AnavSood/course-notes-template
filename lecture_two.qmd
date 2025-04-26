@@ -1,0 +1,40 @@
+# Lecture two {#sec-lecture-two}
+
+This page covers the material from the second lecture. 
+
+## Some things we referenced in lecture one
+
+Here's a another definition, that we already referred to previously in @sec-lecture-one.
+
+::: callout-note
+::: {#def-another-definition}
+# Another definition 
+This is another definition. 
+:::
+:::
+
+If we want, we can also recall @def-prime from the previous lecture. 
+
+And here is another TikZ diagram, that we already referred to in @sec-lecture-one.
+
+```{r, engine='tikz'}
+#| label: fig-smiley-face
+#| fig.cap: "A big smiley face"
+#| echo: false
+#| out.width: '60%'
+#| fig.align: 'center'
+
+\begin{tikzpicture}
+  % Face
+  \draw[fill=yellow!50] (0,0) circle (2cm);
+  
+  % Eyes
+  \fill (-0.7,0.7) circle (0.2cm);
+  \fill (0.7,0.7) circle (0.2cm);
+  
+  % Smile
+  \draw (-1,-0.5) arc[start angle=200, end angle=340, radius=1cm];
+\end{tikzpicture}
+```
+
+Again, if we want, we can also recall @fig-prime from @sec-lecture-one.

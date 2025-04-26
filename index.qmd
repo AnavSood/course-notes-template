@@ -1,0 +1,5 @@
+# About {.unnumbered}
+
+These are course notes for CLASS 101. 
+
+These notes have been compiled into a book via Quarto. To learn more about Quarto books visit <https://quarto.org/docs/books>. As the notes are in book format, we refer to each set of lecture notes as a "Chapter". For example, Chapter 1 refers to lecture notes corresponding to the first lecture. To add new chapters, make new .qmd files for each chapter and edit the  _quarto.yml file correspondingly. 

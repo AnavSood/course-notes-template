@@ -1,0 +1,28 @@
+project:
+  type: book
+
+book:
+  title: "Course notes for CLASS 101"
+  author: "Authors' names"
+  date: "04/25/2025"
+  chapters:
+    - index.qmd
+    - lecture_one.qmd
+    - lecture_two.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    callout-appearance: minimal
+  pdf:
+    documentclass: scrreprt
+
+filters:
+  - webr
+webr: 
+  show-startup-message: false
+
+
